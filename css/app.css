@@ -1,0 +1,84 @@
+body {
+    background-color: #000;
+    font-family: 'Lobster', cursive;
+}
+
+.intro {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    border: 3px solid #d808ab;
+    box-shadow:
+        0 0 40px #d808ab,
+            0 0 6px #d808ab,
+                    inset 0 0 1px #d808ab,
+                        inset 0 0 20px #d808ab,
+                            inset 0 0 6px #d808ab,
+                                inset 0 0 12px #d808ab;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.swiper {
+    position: relative;
+}
+.slide {
+    position: relative;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+.slide-content {
+    position: relative;
+    max-width: 400px;
+}
+.slide-title {
+    color: #fff;
+    text-align: center;
+    text-shadow:
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 30px #fff,
+    0 0 11px #0fa,
+    0 0 20px #0fa,
+    0 0 30px #0fa,
+    0 0 55px #0fa,
+    0 0 80px #0fa;
+}
+
+.slide-text {
+    margin: 0 auto;
+    text-align: center;
+    width: 180px;
+    color: #fff;
+    font-size: 20px;
+}
+.slide {
+position: relative;
+}
+.swiper-button-prev {
+    color: #0fa;
+}
+.swiper-button-next {
+    color: #0fa;
+}
+.button {
+    margin-top: 60px;
+    text-align: center;
+}
+.button-primary {
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    color: #0fa;
+    border: 2px solid #0fa;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
